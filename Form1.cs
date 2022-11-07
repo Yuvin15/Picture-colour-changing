@@ -18,7 +18,13 @@ namespace Drawings
             try
             {
                 // Retrieve the image.
-                image1 = new Bitmap(@"C:\Users\Yuvin\Downloads\10x-featured-social-media-image-size.png", true);
+                //Add the path of the picture using this format:
+                /*                                       */
+                /*  @"------------------------"          */
+                /*                                       */
+                /*  Remove the comment when adding path  */  
+
+                image1 = new Bitmap(/* path goes here */, true);
 
                 int x, y;
 
